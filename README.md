@@ -10,13 +10,11 @@
 **If you don't use package auto-discovery, add the following service provider in config/app.php**
 
 
-return [
-   ...
-   
     'providers' => [
          ...
         Demo\Web\WebDemoServiceProviders::class
     ]
     
-   ...   
-];
+    
+ Route:  http://demo.test/demo  // http://demo.test/create-user 
+ 
