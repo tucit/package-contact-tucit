@@ -1,0 +1,26 @@
+{
+    "name": "tucit/web-demo",
+    "description": "Web demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tuc Nguyen Xuan",
+            "email": "xuantucit@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\Web\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "laravel/dusk"
+            ]
+        }
+    }
+}
